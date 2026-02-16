@@ -20,9 +20,18 @@ macOS メニューバーに常駐し、自分に割り当てられた Backlog �
 - macOS 26.0 (Tahoe) 以降
 - Xcode（ビルドする場合）
 
+## インストール
+
+[Releases](https://github.com/wdgk/BacklogMyIssueWidget/releases) から zip をダウンロードし、解凍した `BacklogMyIssueWidget.app` をアプリケーションフォルダに移動してください。
+
+> **Gatekeeper の警告が表示される場合**
+>
+> このアプリは Apple Developer ID で署名されていないため、初回起動時に警告が表示されます。
+> **システム設定** → **プライバシーとセキュリティ** → **「このまま開く」** をクリックして許可してください。
+
 ## セットアップ
 
-### 1. ビルド
+### 1. ビルド（ソースから）
 
 ```bash
 git clone <repository-url>
